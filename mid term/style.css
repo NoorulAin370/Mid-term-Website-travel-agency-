@@ -1,0 +1,382 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    
+
+
+    .navbar {
+      background-color: #fff;
+      padding: 15px 40px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .navbar nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo span {
+      color: #ff9800;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li {
+      margin: 0 15px;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+    }
+
+    .search-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-container input {
+      padding: 5px 10px;
+      border: 1px solid #9c9b98;
+      border-radius: 4px;
+    }
+
+    .search-container button {
+      padding: 6px 12px;
+      border: none;
+      background-color: #ff9800;
+      color: #fff;
+      border-radius: 5px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+
+
+
+
+
+    
+    .hero-image {
+      position: relative;
+      width: 100%;
+      height: 600px;
+      overflow: hidden;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .image-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+    }
+
+    .image-content h2 {
+      font-size: 28px;
+    }
+
+    .image-content h1 {
+      font-size: 56px;
+    }
+
+    .image-content h1 span {
+      color: #ff9800;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #ff9800;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+   
+
+
+
+    .hero-below {
+      text-align: center;
+      font-size: 32px;
+      margin: 50px 0 20px;
+      font-weight: bold;
+    }
+
+    .hero-below span {
+      color: #ff9800;
+    }
+
+    .booking-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      padding: 40px;
+    }
+
+    .booking-section img {
+      width: 400px;
+      border-radius: 10px;
+    }
+
+    .booking-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 300px;
+    }
+
+    .booking-form label {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .booking-form input {
+      padding: 8px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .booking-form button {
+      padding: 10px;
+      background-color: #ff9800;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+  
+
+
+
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      margin: 60px 0 30px;
+    }
+
+    .packages {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 40px;
+    }
+
+    .card {
+      width: 300px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      padding: 0 15px;
+      color: #555;
+    }
+
+    .price {
+      font-size: 18px;
+      color: #ff9800;
+      margin: 10px 0;
+    }
+
+    .card button {
+      margin: 15px 0 20px;
+      padding: 10px 20px;
+      background: #ff9800;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+
+
+
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .service-card {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .service-card h3 {
+      margin-bottom: 10px;
+      color: #ff9800;
+    }
+
+
+
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 40px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+  
+
+
+    .about-us {
+      padding: 80px 60px;
+      background-color: #f9f9f9;
+    }
+
+    .about-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .about-image img {
+      width: 450px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .about-text {
+      flex: 1;
+      max-width: 500px;
+    }
+
+    .about-text h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .about-text p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .about-text .btn {
+      padding: 12px 25px;
+      background: #ff9800;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer h2 span {
+  color: #ff9800;
+}
+
+.footer p {
+  margin: 5px 0 15px;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff9800;
+}
+
+.footer .copyright {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 20px;
+}
+
+
+
+.fas {
+  color: #ff9800;
+  size: 800px;
+  font-size: 80px;
+}
